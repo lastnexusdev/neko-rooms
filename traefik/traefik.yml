@@ -1,8 +1,8 @@
 entryPoints:
   web:
-    address: ":8181"
+    address: "20.253.249.159:8080"
   websecure:
-    address: ":443"
+    address: "20.253.249.159:443"
 
 providers:
   file:
