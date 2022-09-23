@@ -17,8 +17,8 @@ services:
     environment:
       - "TZ"
     ports:
-      - "20.228.90.37:80:80"
-      - "20.228.90.37:443:443"
+      - "20.253.249.159:80"
+      - "20.253.249.159:443"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
       - "./traefik.yml:/etc/traefik/traefik.yml:ro"
